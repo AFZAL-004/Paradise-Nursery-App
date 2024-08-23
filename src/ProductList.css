@@ -161,9 +161,21 @@ body {
     font-size: 19px;
 }
 .cart{
+    position: relative;
     color: white;
     display: flex;
 }
+.cart-item-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
 .cart_quantity_count{
     margin-top: 16px;
     /* background-color: red; */
